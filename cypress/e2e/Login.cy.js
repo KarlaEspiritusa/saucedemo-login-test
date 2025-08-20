@@ -10,7 +10,6 @@ describe('Login',()=>{
   it('Validate login with correct credentials',()=>{
     loginPage.login(Cypress.env('USERNAME'),Cypress.env('PASSWORD'));
     cy.get('[class="app_logo"]').should('be.visible');
-    //cy.log(Cypress.env('USERNAME'));
   })
 
   it('Login Login with incorrect credentials',()=>{

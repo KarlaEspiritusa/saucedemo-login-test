@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Cypress generated assets
+cypress/screenshots/
+cypress/videos/
+
+# Cypress cache
+~/.cypress/
+
+# Environment variables
+.env
+*.env
+
+# IDE-specific files
+.vscode/
+.idea/
